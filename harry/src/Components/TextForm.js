@@ -40,9 +40,7 @@ export default function TextForm(props) {
         let newText = text.split(/[ ]+/);
         setText(newText.join(" "));
     }
-    
-
-
+  
     
     const [text, setText] = useState();
     return (
@@ -58,8 +56,8 @@ export default function TextForm(props) {
   <button className="btn btn primary mx-2" onClick={handleClearClick}>Clear Text</button>
    <button className="btn btn primary mx-2" onClick={handleCopy}>Copy Text</button>
     <button className="btn btn primary mx-2" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
-   
     </div>
+    
     <div className="container">
         <h1>Your text summary</h1>
         <b><p>{text.split(" ").length} words and {text.length} characters</p></b>
