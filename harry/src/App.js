@@ -41,7 +41,7 @@ function App() {
   return (
      <>
     {/* <Navbar /> */}
-     <Navbar title="texttuals" mode={mode} t0ggleMdoe={toggleMode} />
+     <Navbar title="texttuals" mode={mode} toggleMdoe={toggleMode} />
    <Alert alert={alert} />
      <TextForm showAlert={showAlert} heading= "enter the text to analyse below"/>
  <About />
